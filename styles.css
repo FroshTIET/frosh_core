@@ -1,0 +1,236 @@
+body{
+    padding: 20px;
+    background-color: #141414;
+    height: 100vh;
+    width: 100vw;
+}
+
+.col-lg-4, .col-md-6{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+html, body{
+    overflow-x: hidden;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.card{
+    height: 300px;
+    width: 300px;
+    border: 0;
+    font-family: Roboto;
+    border-radius: 18px;
+    margin-bottom: 20px;
+}
+
+.card-1{
+    background: url('./assets/Manan.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-2{
+    background: url('./assets/Rhea.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-3{
+    background: url('./assets/IMG_20190921_191409 - AARISH SODHI.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-4{
+        background: url('./assets/Anand - Anand Soneji.jpg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+.card-5{
+    background: url('./assets/21BB3A7C-B48D-427C-B32D-868E40473592 - Bhavleen Ahuja.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-6{
+    background: url('./assets/IMG_20200812_164120 - chealsy sood.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-7{
+    background: url('./assets/IMG_20191020_201021_162 - Dev Kewlani.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-8{
+    background: url('./assets/27E82492-0B7C-492C-A638-D88538A906CC - DEVYANI AGGARWAL.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-9{
+    background: url('./assets/IMG-20180622-WA0118 - divyanshi sachdev (NXPowerLite Copy).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-10{
+    background: url('./assets/DSC_5654 - Ishmeet Lamba.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-11{
+    background: url('./assets/B9775C8E-A5DE-43F2-8EEF-378527C5C75A - KANAV KANT.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-12{
+    background: url('./assets/KSHITIJ.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-13{
+    background: url('./assets/manan garg.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-14{
+    background: url('./assets/IMG_6180-2 - Mehul Verma.JPG');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-15{
+    background: url('./assets/2FF3494A-8DA1-4885-B8EA-1B5D422B5370 - Mohammed Zachariah.jpeg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-16{
+    background: url('./assets/IMG_20200812_125327 - Finding Elephants.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-17{
+    background: url('./assets/20190618_040545_0000 - PIYUSH SRIVASTAVA (NXPowerLite Copy).png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-18{
+    background: url('./assets/PhotoGrid_1560935598476 - Saksham Ratra (NXPowerLite Copy).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-19{
+    background: url('./assets/2 - Saud Adnan.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.card-20{
+    background: url('./assets/ID-card Profile - Yash Goien (NXPowerLite Copy).jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+*{
+    color: #303030;
+}
+.card h1{
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 18px;
+    margin-bottom: 30px;
+}
+
+.last-name{
+    margin-bottom: 40px;
+}
+.details{
+    padding-top: 120px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.footer i{
+    font-size: 2rem;
+}
+
+.footer a{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.card h4{
+    font-family: Roboto;
+    font-weight: 300;
+    font-size: 2rem;
+    margin: 0;
+}
+.overlay{
+    border-radius: 18px;
+    display: flex;
+    height: 100%;
+    border: 0px;
+    width: 100%;
+    background: rgba(100, 252, 242, 0.5);
+    padding: 20px;
+    opacity: 0;
+    transition: 0.4s;
+}
+
+
+.overlay:hover{
+    opacity: 100%;
+}
+
+a{
+    margin: 0;
+    padding: 0;
+}
+
+.row{
+    padding-bottom: 20px;
+}
+
+
+.theme{
+    color: rgba(100, 252, 242)
+}
+.mentors-title{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 7rem;
+    color: white;
+}
+
+@media(max-width: 992px){
+    .card{
+        /* margin-bottom: 20px; */
+        margin: 20px auto;
+    }
+    .mentors-title{
+        font-size: 5rem;
+    }
+}
