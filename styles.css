@@ -487,6 +487,6 @@ canvas {
     background: rgba(20, 20, 20, 0.6);
     height: 100%;
     width: 100%;
-    position: absolute;
+    position: fixed;
     z-index: -1;
   }
