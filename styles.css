@@ -48,7 +48,7 @@ html, body{
 }
 .card-4{
         background: url('./assets/Anand - Anand Soneji.jpg');
-        background-position: center;
+        /*background-position: center;*/
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -66,7 +66,7 @@ html, body{
 }
 .card-7{
     background: url('./assets/IMG_20191020_201021_162 - Dev Kewlani.jpg');
-    background-position: center;
+    /*background-position: center;*/
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -131,7 +131,7 @@ html, body{
     background-repeat: no-repeat;
 }
 .card-18{
-    background: url('./assets/PhotoGrid_1560935598476 - Saksham Ratra (NXPowerLite Copy).jpg');
+    background: url('./assets/PhotoGrid_1560935598476\ -\ Saksham\ Ratra\ \(NXPowerLite\ Copy\).jpeg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
